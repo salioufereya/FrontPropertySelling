@@ -1,0 +1,42 @@
+.card.img-wrapper
+{
+  overflow: hidden;
+  position: relative;
+}
+
+.card:hover img{
+ transform: scale(1.2,2.2);
+ transition-duration: 500ms;
+ transition-timing-function: ease-out;
+ opacity: .7;
+ }
+
+ .card img
+{
+  transform: scale(1,1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+}
+
+.member-icons
+{
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-img-wrapper:hover .member-icons{
+
+  bottom: 0;
+}
+
+.card:hover .member-icons li {
+  display: block;
+}
+
+.card .member-icons li {
+  display: none;
+}

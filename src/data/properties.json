@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "Name": "Brila House",
+    "Type": "House",
+    "SellRent": 1,
+    "Price": 1200
+  },
+  {
+    "Id": 2,
+    "Name": "Another House",
+    "Type": "Apartment",
+    "SellRent": 2,
+    "Price": 1500
+  },
+  {
+    "Id": 3,
+    "Name": "Example House",
+    "Type": "Condo",
+    "SellRent": 1,
+    "Price": 1000
+  },
+  {
+    "Id": 4,
+    "Name": "Test House",
+    "Type": "Duplex",
+    "SellRent": 1,
+    "Price": 1800
+  },
+  {
+    "Id": 5,
+    "Name": "Demo House",
+    "Type": "Villa",
+    "SellRent": 1,
+    "Price": 2000
+  },
+  {
+    "Id": 6,
+    "Name": "Sample House",
+    "Type": "Mansion",
+    "SellRent": 1,
+    "Price": 2500
+  }
+]

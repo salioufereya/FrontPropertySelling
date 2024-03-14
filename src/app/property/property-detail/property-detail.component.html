@@ -1,0 +1,16 @@
+<p>property-detail works!</p>
+
+select id is {{ propertyId}}
+
+
+<button class="bg-blue-500" (click)="back()">Retour</button>
+
+<br>
+<br>
+
+<button (click)="onSelectNect()" class="bg-blue-400"> select next page</button>
+
+<br><br>
+<button routerLink="/property-detail/1" class="bg-blue-400 mx-2">1</button>
+<button routerLink="/property-detail/2" class="bg-blue-400 mx-2">2</button>
+<button routerLink="/property-detail/3" class="bg-blue-400">3</button>
